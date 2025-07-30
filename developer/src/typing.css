@@ -1,0 +1,99 @@
+.typing-container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 20px;
+  background: #f9f9ff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.typing-container h2 {
+  text-align: center;
+  color: #3a3a89;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.level-selector {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.level-selector select {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  background: white;
+  cursor: pointer;
+}
+
+.text {
+  background: black;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  min-height: 80px;
+  white-space: pre-wrap;
+}
+
+.correct {
+  color: #2e7d32; /* green */
+  font-weight: bold;
+}
+
+.incorrect {
+  color: #d32f2f; /* red */
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.input {
+  width: 100%;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #bbb;
+  margin-bottom: 20px;
+  resize: none;
+  transition: border 0.3s;
+}
+
+.input:focus {
+  border: 1px solid #3f51b5;
+  outline: none;
+}
+
+.clear-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #3f51b5;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.clear-btn:hover {
+  background: #303f9f;
+}
+
+.result {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.result p {
+  margin: 8px 0;
+}

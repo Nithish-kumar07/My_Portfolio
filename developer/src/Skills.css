@@ -1,0 +1,87 @@
+.skills-section {
+  text-align: center;
+  padding: 50px;
+  background-color: #111;
+  color: white;
+  min-height: 90vh;
+}
+.stack {
+  color: yellow;
+}
+
+.skills-section h2 {
+  font-size: 2.5rem;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.skill-card {
+  background: #222;
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(255, 204, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin-right: 80px;
+}
+
+.skill-card:hover {
+  transform: scale(1.07);
+  box-shadow: 0 8px 16px rgba(255, 204, 0, 0.4);
+}
+
+.skill-card p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.skill-card svg {
+  font-size: 3rem;
+}
+
+.html-icon {
+  color: #e34c26;
+}
+.css-icon {
+  color: #1572b6;
+}
+.js-icon {
+  color: #f7df1e;
+}
+.react-icon {
+  color: #61dafb;
+}
+.node-icon {
+  color: #68a063;
+}
+.express-icon {
+  color: white;
+}
+.mongodb-icon {
+  color: #4db33d;
+}
+.python-icon {
+  color: #3776ab;
+}
+
+@media (max-width: 768px) {
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skill-card {
+    width: 80%;
+  }
+}

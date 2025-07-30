@@ -1,0 +1,114 @@
+.ict {
+  padding: 40px 20px;
+  background-color: #323946;
+  min-height: 100vh;
+  text-align: center;
+}
+span {
+  color: yellow;
+}
+
+.internship {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 2.5rem;
+  font-weight: 600;
+}
+
+.certification {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.Intern {
+  background-color: black;
+  border: 2px solid yellow;
+  border-radius: 12px;
+  padding: 20px 30px;
+  width: 50%;
+  max-width: 800px;
+  box-shadow: 0 0 12px rgba(179, 201, 32, 0.3);
+  color: #ffffff;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Intern:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 18px rgba(188, 228, 42, 0.5);
+}
+
+.Intern h2 {
+  color: yellow;
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+}
+
+.Intern p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 8px 0;
+  color: #e0e0e0;
+}
+
+.Intern strong {
+  color: #ffffff;
+}
+.certificates {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+/* .certificates {
+  margin-left: 200px;
+  margin-right: 200px;
+} */
+.certificate-item {
+  background-color: black;
+  border: 2px solid yellow;
+  border-radius: 10px;
+  color: white;
+  padding: 20px;
+  width: 400px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
+}
+.certificate-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 12px rgba(179, 201, 32, 0.3);
+}
+.achievements {
+  list-style: none;
+  margin: 0 auto;
+  max-width: 700px;
+  text-align: left;
+  color: white;
+}
+.achievement-item {
+  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: 12px;
+}
+.achievement-item:last-child {
+  margin-bottom: 0;
+}
+.back {
+  background-color: #ffcc00;
+  color: black;
+  padding: 15px 10px;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.back:hover {
+  background-color: #333;
+  color: #ffcc00;
+  transform: scale(1.05);
+}
